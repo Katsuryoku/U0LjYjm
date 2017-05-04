@@ -97,15 +97,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="eleve.cpp" />
     <ClCompile Include="example1.cpp" />
     <ClCompile Include="example2.cpp" />
     <ClCompile Include="example3.cpp" />
+    <ClCompile Include="Groupe.cpp" />
     <ClCompile Include="menu.cpp" />
+    <ClCompile Include="Promo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CImg.h" />
     <ClInclude Include="eleve.h" />
+    <ClInclude Include="Groupe.h" />
     <ClInclude Include="menu.h" />
+    <ClInclude Include="Promo.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
