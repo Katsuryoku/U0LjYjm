@@ -5,11 +5,11 @@
 #include <vector>
 
 class Appel{
-	vector<eleve> present_;
-	vector<eleve> absent_;
+	vector<Eleve> present_;
+	vector<Eleve> absent_;
 public:
-	Appel(const vector<eleve> &eleve_group);
-	void present(eleve &eleve_pres);
-	void absent(eleve &absen);
+	Appel(const vector<Eleve> &eleve_group);
+	void present(Eleve &eleve_pres);
+	void absent(Eleve &absen);
 }
 #endif
