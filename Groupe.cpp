@@ -4,15 +4,19 @@
 
 using namespace std;
 
-Groupe::Groupe(const string & nom, const vector<Eleve> & list_eleve)
+Groupe::Groupe(const string & nom)
 {
 	nom_ = nom;
-	list_eleve_ = list_eleve;
-};
+	nbEleve_ = 0;
+}
+
+void Groupe::ad_eleve(Eleve & el)
+{ 
+	list_eleve_.push_back(el); 
+	nbEleve_++;
+}
 
 void Groupe::setGroupe(string text) 
 {
-};
-Groupe::~Groupe() 
-{
-};
+	nom_ = text;
+}
